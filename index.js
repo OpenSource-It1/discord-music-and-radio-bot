@@ -11,8 +11,7 @@ client.queue = new Discord.Collection();
 require('./functions')(client);
 
 client.login(process.env.token).then((token) => {
-  console.log("Succesfully logged in");
-  client.user.setStatus('online');
+  console.log("Succesfully logged in.");
   
 }).catch((e) => {
   console.log(e)
