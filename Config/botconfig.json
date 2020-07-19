@@ -1,1 +1,6 @@
-
+{
+  "prefix":"PREFIX",
+  "embed":"#",
+  "error":"#",
+  "developers":["STRING"]
+}
