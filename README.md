@@ -7,3 +7,33 @@ Yet another open source Discord bot using discord-player and discord.js.
  ## Issues
  
  If you have any issue feel free to make an issue [here](https://github.com/OpenSource-It1/discord-radio-bot/issues/new).
+
+## Installation
+
+Use the package manager [npm](https://npmjs.com) to install all the packages. Using `npm install`, will automatically install all the package needed. Make sure your node version is not below 12.
+
+## Configuration
+
+Start by editing the Config/botconfig.json file:
+
+```js
+{
+  "prefix":"Your Bot Prefix",
+  "embed":"Hex Colour",
+  "error":"Hex Colour",
+  "owner":["Your ID"]
+}```
+
+**Another warning, please do not mess with the config.json file inside the Config folder.**
+
+After you have finished editing the botconfig.json file, edit the .env file:
+
+```
+token=YOUR_TOKEN_HERE```
+
+Reminder:
+
+• `prefix, the prefix that will be set to use the bot.`
+• `your_token_here, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.`
+• `embed & error, the [embed colours](https://encycolorpedia.com/) your bot will use in embeds.`
+• `owner, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.].`
