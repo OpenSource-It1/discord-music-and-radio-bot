@@ -1,6 +1,6 @@
 {
-  "prefix":"PREFIX",
-  "embed":"#",
-  "error":"#",
-  "developers":["STRING"]
+  "prefix":"Your Bot Prefix",
+  "embed":"Hex",
+  "error":"Hex",
+  "owner":["Your ID"]
 }
