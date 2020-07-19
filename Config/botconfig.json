@@ -1,1 +1,6 @@
-
+{
+  "prefix":"Your Bot Prefix",
+  "embed":"Hex Colour",
+  "error":"Hex Colour",
+  "owner":["Your ID"]
+}
