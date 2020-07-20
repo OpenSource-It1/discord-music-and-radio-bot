@@ -36,9 +36,9 @@ token=YOUR_TOKEN_HERE
 Reminder:
 
 - `prefix`, the prefix that will be set to use the bot.
-- `your_token_here`, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.
+- `YOUR_TOKEN_HERE`, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.
 - `embed & error`, the embed colours your bot will use in embeds. Click [here](https://encycolorpedia.com/) to get link to a colour picker.
-- `owner`, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.]
+- `owner`, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID].
 
 ## License
 
