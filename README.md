@@ -22,7 +22,8 @@ Start by editing the Config/botconfig.json file:
   "embed":"Hex Colour",
   "error":"Hex Colour",
   "owner":["Your ID"]
-}```
+}
+```
 
 **Another warning, please do not mess with the config.json file inside the Config folder.**
 
@@ -33,10 +34,10 @@ token=YOUR_TOKEN_HERE`
 
 Reminder:
 
-• `prefix, the prefix that will be set to use the bot. \n`
-• `your_token_here, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.`
-• `embed & error, the [embed colours](https://encycolorpedia.com/) your bot will use in embeds.`
-• `owner, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.].`
+- `prefix`, the prefix that will be set to use the bot.
+- `your_token_here`, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.
+• `embed & error`, the [embed colours](https://encycolorpedia.com/) your bot will use in embeds.
+• `owner`, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.]
 
 # Acknowledgments
 
