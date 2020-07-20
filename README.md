@@ -43,13 +43,12 @@ Reminder:
 ## Commands
 
 
-- `play <name>`, play music in a vocal salon.
-- `pause`, pauses the current music.
-- `resume`, puts the current music back on. 
-- `queue`, see the next musics.
-- `clear-queue`, delete the next music.
-- `now-playing`, see music in progress.
-- `repeat`to enable or disable the repeat function.
+- `play <name>`, play the currently playing song in a vocice channnel.
+- `pause`, pauses the current song.
+- `clear-queue`, delete the upcoming songs in the queue.
+- `now-playing`, see the currently playing song.
+- `repeat` repeats a song over and over again.
+- `radio`, listen to your favourite radio stations live.
 
 ## Utilities
 
