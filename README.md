@@ -1,4 +1,4 @@
-# discord-music-andradio-bot
+# discord-music-and-radio-bot
 
 Yet another open source Discord bot using discord-player and discord.js.
 
