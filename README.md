@@ -29,8 +29,8 @@ Start by editing the Config/botconfig.json file:
 
 After you have finished editing the botconfig.json file, edit the .env file:
 
-`js
-token=YOUR_TOKEN_HERE`
+```js
+token=YOUR_TOKEN_HERE```
 
 Reminder:
 
