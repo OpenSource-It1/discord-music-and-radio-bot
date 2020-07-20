@@ -45,5 +45,5 @@ I <3 Open Source, so I'd like to acknowledge the brilliant packages making this 
 
 These are the open source libraries I use to make this bot:
 
-- (@discordjs/discord.js)[Discord.JS]
-- (Androz2091/discord-player)[discord-player]
+- [Discord.JS](https://github.com/discordjs/discord.js)
+- [discord-player](https://github.com/Androz2091/discord-player)
