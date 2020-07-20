@@ -43,9 +43,9 @@ Reminder:
 ## Commands
 
 
-- `play <name>`, play the currently playing song in a vocice channnel.
+- `play <name>`, plays a song in a voice channnel.
 - `pause`, pauses the current song.
-- `clear-queue`, delete the upcoming songs in the queue.
+- `clear-queue`, deletes the upcoming songs in the queue.
 - `now-playing`, see the currently playing song.
 - `repeat` repeats a song over and over again.
 - `radio`, listen to your favourite radio stations live.
