@@ -36,9 +36,14 @@ Reminder:
 
 - `prefix`, the prefix that will be set to use the bot.
 - `your_token_here`, the token of the bot available on the [Discord Developers](https://discord.com/developers) section.
-• `embed & error`, the [embed colours](https://encycolorpedia.com/) your bot will use in embeds.
-• `owner`, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.]
+- `embed & error`, the embed colours your bot will use in embeds. Click [here](https://encycolorpedia.com/) to get link to a colour picker.
+- `owner`, your ID to access developer-only commands if need be, to get your ID please refer to this Discord (article)[https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-#:~:text=On%20Android%20press%20and%20hold,name%20and%20select%20Copy%20ID.]
 
 # Acknowledgments
 
-<3 Open Source
+I <3 Open Source, so I'd like to acknowledge the brilliant packages making this repository happen.
+
+These are the open source libraries I use to make this bot:
+
+- (@discordjs/discord.js)[Discord.JS]
+- (Androz2091/discord-player)[discord-player]
