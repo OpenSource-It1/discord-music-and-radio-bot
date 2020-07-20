@@ -25,7 +25,7 @@ Start by editing the Config/botconfig.json file:
 }
 ```
 
-**Another warning, please do not mess with the config.json file inside the Config folder.**
+**Please do not mess with the config.json file inside the Config folder.**
 
 After you have finished editing the botconfig.json file, edit the .env file:
 
