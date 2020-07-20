@@ -3,16 +3,24 @@ const radioJSON = require("./organizedRadio.json");
 
 module.exports.run = async (client, message, args) => {
   
-    let NoAuthorConnection = new Discord.MessageEmbed()
-    .setColor(client.config.success)
-    .setTitle('Radio | Error')
-    .setDescription('You need to be in voice channel in order to use that command!')
-    .setFooter(`Requested by: ${message.author.tag}`, message.author.displayAvatarURL());
-
-    if (!message.member.voice.channel)
-      return message.channel.send(NoAuthorConnection).then(msg => {
-        msg.delete(10000);
-      });
+module.exports.run = async (client, message, args) => {
+  if (!message.member.voice.channel)
+    return message.channel.send({
+      embed: {
+        color: client.config.error,
+        description: `**Error** | You are not in a voice channel.`
+      }
+    });
+  if (
+    message.guild.me.voice.channel &&
+    message.member.voice.channel.id !== message.guild.me.voice.channel.id
+  )
+    return message.channel.send({
+      embed: {
+        color: client.config.error,
+        description: `**Error**| You are not in my voice channel.`
+      }
+    });
 
     let dataStructureForRadioJSON = getData();
     let pages = embedPagesArray(client, message, dataStructureForRadioJSON);
