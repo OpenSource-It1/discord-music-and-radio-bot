@@ -51,7 +51,7 @@ Reminder:
 - `now-playing`, see music in progress.
 - `repeat`to enable or disable the repeat function.
 
-## Utilities (to change the code) :
+## Utilities
 
 Functions available with the `discord-player` module that you can use :
 
