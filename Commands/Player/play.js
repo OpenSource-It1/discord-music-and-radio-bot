@@ -6,7 +6,7 @@ module.exports.run = async (client, message, args) => {
   if (!message.member.voice.channel)
     return message.channel.send({
       embed: {
-        color: client.config.embed,
+        color: client.config.error,
         description: `**Error** | You are not in a voice channel.`
       }
     });
@@ -16,7 +16,7 @@ module.exports.run = async (client, message, args) => {
   )
     return message.channel.send({
       embed: {
-        color: client.config.embed,
+        color: client.config.error,
         description: `**Error**| You are not in my voice channel.`
       }
     });
@@ -24,7 +24,7 @@ module.exports.run = async (client, message, args) => {
   let search = await client.player.searchTracks(query).catch(e => {
     return message.channel.send({
       embed: {
-        color: client.config.embed,
+        color: client.config.error,
         description: `**Error** | No results were found for that query.`
       }
     });
@@ -43,7 +43,7 @@ module.exports.run = async (client, message, args) => {
   if (!query)
     return message.channel.send({
       embed: {
-        color: client.config.embed,
+        color: client.config.error,
         description: `**Error** | Please enter a search query to search.`
       }
     });
@@ -164,7 +164,7 @@ module.exports.run = async (client, message, args) => {
           message.channel.send({
             embed: {
               color: client.config.embed,
-              description: `**| Now Playing:**\n[${newTrack.name}](${newTrack.url})`,
+              description: `**Now Playing** | [${song.name}](${song.url})`,
               thumbnail: {
                 url: newTrack.thumbnail
               },
