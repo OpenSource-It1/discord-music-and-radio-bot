@@ -6,7 +6,7 @@ Yet another open source Discord bot using discord-player and discord.js.
  
  ## Issues
  
- If you have any issue feel free to make an issue [here](https://github.com/OpenSource-It1/discord-radio-bot/issues/new).
+ If you have any issue feel free to make a new issue [here](https://github.com/OpenSource-It1/discord-radio-bot/issues/new).
 
 ## Installation
 
