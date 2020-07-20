@@ -93,7 +93,7 @@ client.player.setRepeatMode(false);
 
 [MIT](https://github.com/OpenSource-It1/discord-music-and-radio-bot/blob/master/LICENSE)
 
-## Acknowledgements
+## Acknowledgements & Thank Yous
 
 I <3 Open Source, so I'd like to acknowledge the brilliant packages making this repository happen.
 
@@ -101,3 +101,10 @@ These are the open source libraries I use to make this bot:
 
 - [Discord.JS](https://github.com/discordjs/discord.js)
 - [discord-player](https://github.com/Androz2091/discord-player)
+
+Thank you to:
+
+- [Discord-Music](https://github.com/hydraindia/discord-music) by [hydraindia](https://github.com/hydraindia)
+- [Music-bot](https://github.com/ZerioDev/Music-bot) by [ZerioDev](https://github.com/ZerioDev/Music-bot)
+
+I used both of your repositories as a help guide for making this repository, hope you don't mind guys.
